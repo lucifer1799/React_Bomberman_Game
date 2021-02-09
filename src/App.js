@@ -86,7 +86,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hey It's Just for Cheacking</h1>
         <h1>Score : {this.state.score}</h1>
         {this.state.grid.map((value, index) => (
           <GridRow
